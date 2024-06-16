@@ -1,0 +1,11 @@
+@-moz-document url("about:newtab"), url("about:home"), url(about:privatebrowsing) {
+	/* Sets background image and autoscale image to browser window. */
+	body{
+		background-image: url("wallpapers/ntp_background.jpg") !important;
+		background-size: cover !important;
+		background-repeat: no-repeat !important;
+		background-attachment: fixed !important;
+		background-position-x: center !important;
+		background-position-y: bottom !important;
+	}
+}
